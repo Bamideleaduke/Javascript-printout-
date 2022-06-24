@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Print</title>
+</head>
+<body>
+    <h3>Task: Write a javascript code that prints out your name, height, and country on the screen</h3>
+    <h2>Solution :</h2>
+    <h1 class="display"></h1>
+    <script>
+        let firstName = "Barakat";
+        let lastName = "Bamidele";
+        let height ="4.5inches";
+        let country = "Nigeria";
+        let aboutMe = `My name is ${lastName} ${firstName}. I am ${height} tall. I am a citizen of ${country}.`
+
+        const printOut = document.querySelector(".display");
+        printOut.innerHTML = aboutMe;
+   
+    </script>
+</body>
+</html>
